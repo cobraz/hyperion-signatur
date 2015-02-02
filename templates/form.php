@@ -4,6 +4,7 @@
 	<head>
 		<title></title>
 		<meta charset="utf-8">
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
 	</head>
 	<body>
 		<form method="post">
