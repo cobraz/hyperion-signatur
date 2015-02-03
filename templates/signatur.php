@@ -90,16 +90,16 @@
 <table class="contact-details">
 	<tr>
 		<td>
-			<img class="icon" src="assets/phone-colored.png" alt="" />
+			<img class="icon" src="<?= path() ?>assets/phone-colored.png" alt="" />
 			<?= $_POST['telephone']; ?>
 		</td>
 		<td>
-			<img class="icon" src="assets/envelope-colored.png" alt="" />
+			<img class="icon" src="<?= path() ?>assets/envelope-colored.png" alt="" />
 			<?= $_POST['email']; ?>
 		</td>
 		<? if(!empty($_POST['twitter'])): ?>
 		<td>
-			<img class="icon" src="assets/twitter-colored.png" alt="" />
+			<img class="icon" src="<?= path() ?>assets/twitter-colored.png" alt="" />
 			@<?= $_POST['twitter']; ?>
 		</td>
 		<? endif; ?>
@@ -108,27 +108,27 @@
 <table class="company-details">
 	<tr>
 		<td class="logoDetails" valign="top">
-			<img class="logo" src="assets/logo.png" alt="" />
+			<img class="logo" src="<?= path() ?>assets/logo.png" alt="" />
 			<table class="company-social">
 				<tr>
 					<td>
 						<a href="<?= $config['twitter'] ?>">
-							<img class="rounded" src="assets/twitter-rounded.png" alt="" />
+							<img class="rounded" src="<?= path() ?>assets/twitter-rounded.png" alt="" />
 						</a>
 					</td>
 					<td>
 						<a href="<?= $config['facebook'] ?>">
-							<img class="rounded" src="assets/facebook-rounded.png" alt="" />
+							<img class="rounded" src="<?= path() ?>assets/facebook-rounded.png" alt="" />
 						</a>
 					</td>
 					<td>
 						<a href="<?= $config['gplus'] ?>">
-							<img class="rounded" src="assets/gplus-rounded.png" alt="" />
+							<img class="rounded" src="<?= path() ?>assets/gplus-rounded.png" alt="" />
 						</a>
 					</td>
 					<td>
 						<a href="<?= $config['youtube'] ?>">
-							<img class="rounded" src="assets/youtube-rounded.png" alt="" />
+							<img class="rounded" src="<?= path() ?>assets/youtube-rounded.png" alt="" />
 						</a>
 					</td>
 				</tr>
@@ -140,15 +140,15 @@
 			<table class="company-contact-details">
 				<tr>
 					<td>
-						<img class="icon" src="assets/phone-white.png" alt="" />
+						<img class="icon" src="<?= path() ?>assets/phone-white.png" alt="" />
 						<?= $config['telephone'] ?>
 					</td>
 					<td>
-						<img class="icon" src="assets/envelope-white.png" alt="" />
+						<img class="icon" src="<?= path() ?>assets/envelope-white.png" alt="" />
 						<?= $config['email'] ?>
 					</td>
 					<td>
-						<img class="icon" src="assets/earth-white.png" alt="" />
+						<img class="icon" src="<?= path() ?>assets/earth-white.png" alt="" />
 						<?= $config['web'] ?>
 					</td>
 				</tr>
